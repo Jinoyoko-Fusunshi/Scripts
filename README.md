@@ -4,6 +4,11 @@ Here are some scripts to automate some manual tasks, when working with the linux
 
 <br>
 
+## Requirements
+- PowerShell Core
+- Curl
+- Gdebi 
+
 ## Installation Modules
 
 These are installation scripts to either install software applications or install configurations for existing software.
@@ -37,7 +42,7 @@ The command first fetches with curl the newest debian package and writes the out
 
 ### Install-GrubTheme
 ```PowerShell
-Install-GrubTheme -Source <selected grub theme tar fiel>
+Install-GrubTheme -Source <selected grub theme tar file>
 ```
 
 Execute the command above and the theme will be installed. This action will ask for root access.
