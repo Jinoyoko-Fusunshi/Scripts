@@ -1,17 +1,32 @@
-# Tooling scripts
+# Script Tool Modules
 
-Here are some scripts to automate some manual tasks, when working with the linux environment.
+Here are some scripts to automate some manual tasks. The script modules functionality varies on the operating system and is designed to mostly work on the specific platform.
+
+<table>
+    <tr>
+        <th>Module Name</td>
+        <th>Platform</td>
+        <th>Description</td>
+    </tr>
+    <tr>
+        <td>Installations Scripts</td>
+        <td>Linux</td>
+        <td>Module for automated installation of linux programs. </td>
+    </tr>
+</table>
 
 <br>
 
-## Requirements
+## Installation Modules
+
+Each Script automates a installation for a single linux application.
+
+### Requirements
 - PowerShell Core
 - Curl
 - Gdebi 
 
-## Installation Modules
-
-These are installation scripts to either install software applications or install configurations for existing software.
+### PowerShell Scripts
 
 <table>
     <tr>
@@ -30,7 +45,9 @@ These are installation scripts to either install software applications or instal
     </tr>
 </table>
 
-### 
+---
+
+#### Install-Discord
 ```PowerShell
 Install-Discord
 ```
@@ -40,7 +57,7 @@ The command first fetches with curl the newest debian package and writes the out
 
 ---
 
-### Install-GrubTheme
+#### Install-GrubTheme
 ```PowerShell
 Install-GrubTheme -Source <selected grub theme tar file>
 ```
